@@ -26,7 +26,11 @@ body{
 .animated{
         margin-top: 50px;
         text-align: center;
-        color: #3ee7ae;
+        background: -webkit-linear-gradient( #FFFF00 , #FB5F00 );
+	
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
         font-family: 'Exo', sans-serif;
         font-size: 45px;
         letter-spacing: 5px;
@@ -54,7 +58,7 @@ body{
   margin: auto;
   margin-top: 60px;
   overflow: hidden;
-border:2px #3ee7ae solid;
+border:2px #FFFF00 solid;
 
 
 }

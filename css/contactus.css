@@ -6,7 +6,10 @@ body{
 
 .animated {
     text-align: center;
-    color: #3ee7ae;
+    background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     margin-top: 7px;
     font-family: 'Exo', sans-serif;
     font-size: 40px;
@@ -25,7 +28,10 @@ h3{
     position: relative;
         left: 25%;
             bottom: 342px;
-    color: #3ee7ae;
+   background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 20px;
     font-family: 'Exo',sans-serif;
     
@@ -42,7 +48,7 @@ h3{
 }
    div.vertical-line{
       width: 3px; 
-      background-color: #3ee7ae; 
+      background-color: #FFFF00; 
       height: 50%; 
       float: left;  
            position: relative;
@@ -67,7 +73,10 @@ h3{
     
     .mapt{
         float: left;
-        color: #3ee7ae;
+        background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
         font-size: 20px;
         font-family: 'Exo',sans-serif;
         margin-bottom: -30px;
@@ -78,7 +87,10 @@ h3{
     float: right;
     font-family: 'Exo',sans-serif;
     margin-right: 281px;
-    color: #3ee7ae;
+    background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     margin-top: 55px;
     font-size: 20px;
     position: relative;
@@ -99,7 +111,10 @@ h3{
     font-family: 'Exo',sans-serif;
     margin-right: -107px;
     margin-top: 150px;
-    color: #3ee7ae;
+    background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 20px;
 }
     .t2 {
@@ -115,7 +130,10 @@ h3{
     font-family: 'Exo',sans-serif;
     margin-right: -108px;
     margin-top: 225px;
-    color: #3ee7ae;
+    background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 20px;
 }
     .t3 {
@@ -181,7 +199,10 @@ h3{
     }
     .mapt {
     float: left;
-    color: #3ee7ae;
+    background: linear-gradient( #FFFF00 , #FB5F00 );
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 30px;
     font-family: 'Exo',sans-serif;
     margin-bottom: -4px;

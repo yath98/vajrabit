@@ -9,7 +9,11 @@
         .animated{
             font-family: 'Exo',sans-serif;
             font-size: 45px;
-            color: #3ee7ae;
+            background: -webkit-linear-gradient( #FFFF00 , #FB5F00 );
+	
+    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
             text-align: center;
             letter-spacing: 5px;
             margin-top: 2%;
@@ -285,7 +289,7 @@
     position: absolute;
     top: 18%;
     left: -14%;
-    background-color: #3ee7ae;
+    background-color: #FFFF00;
     height: 60%;
     width: 1243px;
     transform: skew(-30deg);
@@ -611,48 +615,10 @@ h1{
     
     @media only screen and (max-width:320px) and (orientation:portrait){
         
-        
-        .square2 {
-    height: 120;
-    width: 80;
-    background-color: #ddfff5;
-    display: inline-block;
-    border: 2px solid #fdd017;
-    border-bottom: 0;
-    margin-top: 47px;
-    margin-left: 60px;
-    position: relative;
-    top: -365px;
-    left: 48%;
-}
-        .square1 {
-    height: 120;
-    width: 80px;
-    background-color: #ef8a86;
-    display: inline-block;
-    border: 2px solid #fdd017;
-    border-bottom: 0;
-    margin-top: 30;
-    margin-left: 80px;
-    position: relative;
-    top: -196px;
-    left: 30px;
-}
-        .square6 {
-    height: 120;
-    width: 80;
-    background-color: #fff947;
-    display: inline-block;
-    border: 2px solid #fdd017;
-    border-bottom: 0;
-    margin-top: -;
-    margin-left: 160px;
-    position: relative;
-    top: -292px;
-}
+      
         .square {
-    height: 120;
-    width: 80;
+    height: 100;
+    width: 60;
     background-color: #29B35C;
     display: inline-block;
     border: 2px solid #fdd017;
@@ -661,11 +627,63 @@ h1{
     margin-left: 55px;
     position: relative;
     top: -45px;
-    left: -42px;
+    left: -39px;
 }
-        .square3 {
-    height: 120;
-    width: 80;
+        .lower-triangle {
+    height: 40.76px;
+    width: 40.76px;
+    background-color: #29B35C;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 13%;
+    border: 2px solid #fdd017;
+    margin-top: -26px;
+}
+        .square2 {
+    height: 100;
+    width: 60;
+    background-color: #ddfff5;
+    display: inline-block;
+    border: 2px solid #fdd017;
+    border-bottom: 0;
+    margin-top: 47px;
+    margin-left: 60px;
+    position: relative;
+    top: -193px;
+    left: 20%;
+}
+        .square1 {
+    height: 100;
+    width: 60;
+    background-color: #ef8a86;
+    display: inline-block;
+    border: 2px solid #fdd017;
+    border-bottom: 0;
+    margin-top: 30;
+    margin-left: 80px;
+    position: relative;
+    top: -43px;
+    left: 21px;
+}
+        .square6 {
+    height: 100;
+    width: 60;
+    background-color: #fff947;
+    display: inline-block;
+    border: 2px solid #fdd017;
+    border-bottom: 0;
+    margin-top: -;
+    margin-left: 160px;
+    position: relative;
+    top: 344px;
+    left: -97px;
+}
+        
+     .square3 {
+    height: 100;
+    width: 60;
     background-color: #ff8d2b;
     display: inline-block;
     border: 2px solid #fdd017;
@@ -673,12 +691,13 @@ h1{
     margin-top: 30;
     margin-left: 81px;
     position: relative;
-    top: -353px;
-    left: -21px;
+    top: 93px;
+    left: -31px;
 }
+        
         .square4 {
-    height: 120;
-    width: 80;
+    height: 100;
+    width: 60;
     background-color: #bcff3c;
     display: inline-block;
     border: 2px solid #fdd017;
@@ -686,24 +705,102 @@ h1{
     margin-top: 41px;
     margin-left: 62px;
     position: relative;
-    top: -350px;
-    left: -2px;
+    top: -192px;
+    left: 7px;
 }
         .square5 {
-    height: 120;
-    width: 80;
+    height: 100;
+    width: 60;
     background-color: #4DB5DC;
     display: inline-block;
     border: 2px solid #fdd017;
     border-bottom: 0;
-    margin-top: 30;
+    margin-top: 42px;
     margin-left: 81px;
     position: relative;
-    top: -501px;
-    left: 82px;
+    top: -192px;
+    left: -35px;
 }
 
-
-        
-        
+img {
+    position: relative;
+    margin-top: 15%;
+    left: -5%;
+    height: 82px;
+    width: 62px;
+}
+        .lower-triangle3 {
+    height: 40.76px;
+    width: 40.76px;
+    background-color: #ff8d2b;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 5%;
+    border: 2px solid #fdd017;
+    margin-top: -18px;
+}
+        .lower-triangle4 {
+    height: 40.76px;
+    width: 40.76;
+    background-color: #bcff3c;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 12%;
+    border: 2px solid #fdd017;
+    margin-top: -26px;
+}
+        .lower-triangle2 {
+    height: 40.76px;
+    width: 40.76px;
+    background-color: #ddfff5;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 6%;
+    border: 2px solid #fdd017;
+    margin-top: -19px;
+}
+        .lower-triangle1 {
+    height: 40.76;
+    width: 40.76px;
+    background-color: #ef8a86;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 12%;
+    border: 2px solid #fdd017;
+    margin-top: -26px;
+}
+        .lower-triangle5 {
+    height: 40.76px;
+    width: 40.76;
+    background-color: #4DB5DC;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 6%;
+    border: 2px solid #fdd017;
+    margin-top: -26px;
+    position: relative;
+    top: 11px;
+}
+        .lower-triangle6 {
+    height: 40.76px;
+    width: 40.76px;
+    background-color: #fff947;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 13.6%;
+    top: 13%;
+    border: 2px solid #fdd017;
+    margin-top: -26px;
+}
     }

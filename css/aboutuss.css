@@ -1,8 +1,7 @@
 .animated{
         text-align: center;
 
-        background: -webkit-linear-gradient( #FFFF00 , #FB5F00 );
-	
+        background: linear-gradient( #FFFF00 , #FB5F00 );
     
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
