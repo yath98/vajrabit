@@ -9,7 +9,8 @@ body{
 .body{
   background-image: url(Untitled-1.jpg);
   background-repeat: no-repeat;
-background-size: 100% 100%;
+background-size:100% 100%;
+
 }
 .animated{
         text-align: center;

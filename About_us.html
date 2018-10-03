@@ -1,11 +1,27 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta property="og:url" content="vajrabit.in" />
+ <meta property="og:type" content="article" />
+ <meta property="og:title" content="VAJRA 2018 | 3-5 November 2018 | BIT MESRA" />
+ <meta property="og:description" content="Annual Inter-College Sports Fest of BIT Mesra | Football | BasketBall | Table-Tennis | Chess | Badminton | Volleyball | Cricket "
+ />
+ <meta property="og:image" content="http://vajrabit.in/fbimage.jpg" />
+
+ <meta property="fb:app_id" content="255168078339795" />
+ <meta name="mobile-web-app-capable" content="yes">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>VAJRA18 | ABOUT </title>
+ <meta name="theme-color" content="#f4772e" />
+
+ <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+
     <link href="css/aboutuss.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 <link href="css/navbar.css" type="text/css" rel="stylesheet">
-
+<link href="css/pre.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 <!-- or -->
@@ -14,6 +30,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 </head>
 <body class="body">
+
+  <div class="loader">
+    <div class="pong-loader"></div>
+  </div>
 
 <div class="button_container" id="toggle">
   <span class="top"></span>
@@ -24,6 +44,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <div class="overlay" id="overlay">
   <nav class="overlay-menu">
     <ul>
+      <li><a href="index.html">Home</a></li>
     <li ><a href="About_us.html">About Us</a></li>
     <li><a href="template.html">Events</a></li>
     <li><a href="contactus.html">Contact Us</a></li>
@@ -35,9 +56,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <h1 class="animated bounceInLeft" > ABOUT US </h1>
 
 <div class="box1">
-<div class="text1"> VAJRA 2017 Aftermovie</div>
+<div class="text1"> VAJRA 2018 Teaser</div>
 <div class="video">
-  <iframe class="video" width="490" height="315" src="https://www.youtube.com/embed/lVrwOBsNQas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe class="video" width="550" height="350" src="https://www.youtube.com/embed/chVcZVcKogE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 </div>
@@ -60,6 +81,21 @@ The objective of the countrywide sports extravaganza is to assemble like-minded 
 src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
+
+
+    <script>
+         $(document).ready(function () {
+            //Preloader
+            $(window).on('load', function () {
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    let preloader = $('.loader');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+        </script>
 <script >
 
 $('#toggle').click(function(){

@@ -1,13 +1,20 @@
+*{
+  box-sizing: border-box;
+}
 body{
-            background-image: url(Untitled-1.jpg);
-            background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;}
+  .body{
+    background: url(Untitled-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
         }
 
 .animated {
     text-align: center;
     background: linear-gradient( #FFFF00 , #FB5F00 );
-    
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     margin-top: 7px;
@@ -18,531 +25,161 @@ body{
     position: relative;
     top: 40px;
 }
-/*
-.animated, .desk, .mapcontainer, .mapt, .textcontainer, .p, .t1, .email, .t2, .phone, .t3, .t4, .t5{
+.box1
+{
+  margin-top: 20px;
+  /*background-color: blue;*/
+  width: 49%;
+  height: 80%;
+  position: relative;
+  float: left;
+}
+.box2
+{
+  margin-top: 20px;
+/*background-color: red;*/
+width: 49%;
+height: 80%;
+position: relative;
+float: left;
+
+}
+.map_heading{
+    background: -webkit-linear-gradient( #FFFF00 , #FB5F00 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Exo', sans-serif;
+    margin-top:15px;
+    text-align: center;
+    font-size: 30;
+    position: relative;
+}
+.map
+{
+  height: 350px;
+  width: 70%;
+  position: relative;
+  top:10px;
+  left:15%;
+  margin: auto;
+
+}
+.vertical-line{
+  left:50px;
+  margin-top: 20px;
+  background-color: yellow;
+  width: 3px;
+  height: 60%;
+  margin-top: 100px;
+  position: relative;
+  float: left;
+}
+.t1, .t2, .t3, .t4, .t5
+{
+  color:white;
+  font-family: 'Exo', sans-serif;
+}
+.phone , .email , .p
+{
+  background: linear-gradient( #FFFF00 , #FB5F00 );
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-family: 'Exo', sans-serif;
+}
+.t1, .t2, .t3{
+  margin-top: -20px;
+}
+ .phone, .email
+ {
+   margin-top: -10px;
+ }
+.p{
+  margin-top:15%;
+}
+p
+{
+  margin-left: 200px;
+}
+
+@media screen and (max-width:480px) {
+  .animated{
+    font-size: 25px;
+    top:10px;
+  }
+  .body
+  {
+    background-size: cover;
+  }
+  .vertical-line{
     display: none;
-}
-*/
-h3{
-    
-    position: relative;
-        left: 25%;
-            bottom: 342px;
-   background: linear-gradient( #FFFF00 , #FB5F00 );
-    
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  }
+  .box1{
+    width: 100%;
+    margin-top: 10px;
+    height: 300px;
+  }
+  .map_heading{
     font-size: 20px;
-    font-family: 'Exo',sans-serif;
-    
+    margin-top: 2%;
+  }
+  .map{
+    width: 80%;
+    height: 240px;
+    left:10%;
+    margin-top:-5%;
 }
-.map-cont{
-    position: relative;
-    
-/*    float: left;*/
-    left: -50px;
-        top: 423px;
+  .box2
+  {
+    width:100%;
+    margin-top: 0px;
+    height: 270px;
+  }
+  .p{
+    margin-top: 2%;
+  }
+  .t1, .t2, .t3 ,.t4 ,.t5
+  {
+    font-size: 12px;
+    text-align: center;
+  }
+  p{
+    margin-left:0%;
+  }
+  .email, .p ,.phone{
+    font-size: 18px;
+    text-align: center;
+  }
 }
-.mob{
+@media screen and (max-width:375px) {
+  .body
+  {
+    background-size: cover;
+  }
+  .vertical-line{
     display: none;
+  }
 }
-   div.vertical-line{
-      width: 3px; 
-      background-color: #FFFF00; 
-      height: 50%; 
-      float: left;  
-           position: relative;
-    left: 50%;
-       margin-top: 100px;
-        
-    }
-    body{
-/*        background-image: url(Untitled-1.jpg);*/
-        background-color: #2b2b2b;
-        background-repeat: no-repeat;
-    background-size: 100% 100%;
-        
-    }
-    
-    .map{
-        margin-top: -350px;
-        margin-left: 110px;
-        
-        position: relative;
-     }
-    
-    .mapt{
-        float: left;
-        background: linear-gradient( #FFFF00 , #FB5F00 );
-    
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-        font-size: 20px;
-        font-family: 'Exo',sans-serif;
-        margin-bottom: -30px;
-        margin-left: 330px;
-    }
-    
-    .p {
-    float: right;
-    font-family: 'Exo',sans-serif;
-    margin-right: 281px;
-    background: linear-gradient( #FFFF00 , #FB5F00 );
-    
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    margin-top: 55px;
-    font-size: 20px;
-    position: relative;
-    left: -40px;
-}
-    .t1 {
-    float: right;
-    font-size: 15px;
-    color: azure;
-    font-family: 'Exo',sans-serif;
-    margin-top: 85px;
-    margin-right: -113px;
-    position: relative;
-    left: -19px;
-}
-   .email {
-    float: right;
-    font-family: 'Exo',sans-serif;
-    margin-right: -107px;
-    margin-top: 150px;
-    background: linear-gradient( #FFFF00 , #FB5F00 );
-    
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    font-size: 20px;
-}
-    .t2 {
-    float: right;
-    font-size: 15px;
-    color: azure;
-    font-family: 'Exo',sans-serif;
-    margin-top: 180px;
-    margin-right: -141px;
-}
-    .phone {
-    float: right;
-    font-family: 'Exo',sans-serif;
-    margin-right: -108px;
-    margin-top: 225px;
-    background: linear-gradient( #FFFF00 , #FB5F00 );
-    
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    font-size: 20px;
-}
-    .t3 {
-    float: right;
-    font-size: 15px;
-    color: azure;
-    font-family: 'Exo',sans-serif;
-    margin-top: 260px;
-    margin-right: -139px;
-}
-    .t4 {
-    float: right;
-    font-size: 15px;
-    color: azure;
-    font-family: 'Exo',sans-serif;
-    margin-top: 310px;
-    margin-right: -132px;
-}
-    .t5 {
-    float: right;
-    font-size: 15px;
-    color: azure;
-    font-family: 'Exo',sans-serif;
-    margin-top: 360px;
-    margin-right: -136px;
-}
-    
-@media only screen and (max-width:480px) and (orientation:portrait){
-    .mob{
-        display: block;
-    }
-    body{
-        background-color: #2b2b2b;
-    }
-    .desk{
-        display: none;
-    }
-    
-    .mapcontainer{
-       height: 40%;
-    width: 40%;
-    position: relative;
-    top: 42%;
-    
-          left: -20%
-        
-    } 
-    .textcontainer{
-            position: relative;
-               top: 40%;
-        left: 10%;
-        font-size: 2%;
-    }
-    .map{
-        margin-top: -382px;
-    margin-left: 121px;
-    }
-    .animated{
-            font-size: 45px;
-    position: relative;
-    left: 23%;
-    margin-top: 40px;
-    }
-    .mapt {
-    float: left;
-    background: linear-gradient( #FFFF00 , #FB5F00 );
-    
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    font-size: 30px;
-    font-family: 'Exo',sans-serif;
-    margin-bottom: -4px;
-    margin-left: 354px;
-    margin-top: -417px;
-}
-    .t1{
-        font-size: 19px;
-    position: relative;
-    left: -36%;
-    margin-top: -25px;
-    }
-    .p{
-        
-    margin-top: -15px;
-left: 186px;
-    top: 10px;
-    position: relative;
-    font-size: 17px;
-}
+@media screen and (max-width:320px) {
+  .body
+  {
+    background-size: cover;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .box1{
+    width: 100%;
+  }
+  .map{
+    width: 100%;
+    left:0%;
+  }
+  .box2
+  {
+    width:100%;
+  }
 
-           
-    
-    .mob-font{
-        font-size: 30px;
-    float: none;
-    margin-top: 150px;
-    }
-    .mob-font1{
-            font-size: 20px;
-            position: relative;
-    left: -15%;
-    }
-    .phone{
-        margin-right: 239px;
-    /* margin-top: -39px; */
-    position: relative;
-    left: 198px;
-    top: -120;
-        
-    }
-    .t3{
-       margin-top: -149px;
-    margin-right: -78px;
-    margin-right: 200;
-    left: 37%;
-    font-size: 20px;
-    }
-    .t4{
-        margin-top: -22%;
-    margin-right: 5px;
-    }
-    .t5{
-        margin-top: -16px;
-    margin-right: 1px;
-    }
-    .t2 {
-    margin-top: 0;
-    margin-right: 190;
-    position: relative;
-    left: 37%;
-    top: -36px;
-    font-size: 20px;
 }
-    
-    .email{
-            left: 60px;
-    margin-left: 204px;
-    top: -80px;
-    font-size: 30px;
-    float: none;
-    margin-top: 19%;
-}
-    
-
-    body{
-        overflow: hidden;
-    }
-    
-}
-@media only screen and (max-width:375px)  and (orientation:portrait){
-.map {
-        margin-top: -367px;
-    margin-left: 90px;
-        left: -5%;
-}
-    .mapt {
-    margin-left: 303px;
-       margin-top: -402px;
-}
-    .p{
-        font-size: 25px;
-            top: 45px;
-            
-            left: 160px;
-        margin-top: -15px;
-
-    position: relative;
-    }
-    .t1{
-          
-            left: -43%;
-            margin-top: 15px;
-        position: relative;
-    }
-    .mob-font{
-              margin-top: 133px;
-        font-size: 27px;
-       
-    float: none;
-   
-    }
-    .email {
-    font-size: 27px;
-    position: absolute;
-    top: 25%;
-    left: -10%;
-    margin-left: 204px;
-    float: none;
-    margin-top: 19%;
-}
-    .phone {
-    left: 168px;
-    top: -6px;
-        margin-right: 239px;
-    /* margin-top: -39px; */
-    position: relative;
-    
-}
-    
-    .t3 {
-    font-size: 18px;
-        
-        margin-top: -42px;
-        
-       
-    margin-right: -78px;
-    margin-right: 200;
-    left: 37%;
-    
-}
-    .t4 {
-    
-    margin-right: 5px;
-            margin-top: -6%;
-}
-    .t5 {
-    margin-top: 33px;
-    margin-right: -168px;
-}
-
-    .t2{
-            top: 10px;
-        margin-top: 0;
-    margin-right: 190;
-    position: relative;
-    left: 37%;
-    }
-    .mapcontainer {
-    height: 40%;
-    width: 40%;
-    position: relative;
-    top: 45%;
-    left: -25%;
-}
-    
-
-
-
-    .animated{
-        left: 19%;
-        margin-top: 23px;
-        
-    position: relative;
-    }
-    
-    
-    
-    body{
-        background-color: #2b2b2b;
-    }
-    .desk{
-        display: none;
-    }
-    
-    .textcontainer {
-    position: relative;
-            top: 40%;
-    left: 10%;
-    font-size: 2%;
-        
-     
-}
-    
-    
-    
-}
-
-
-@media only screen and (max-width:360px) and (orientation:portrait){
-    
-    body{
-        background-color: #2b2b2b;
-    }
-    
-    .mapcontainer {
-    height: 40%;
-    width: 40%;
-    position: relative;
-    top: 49%;
-    left: -32%;
-}
-
-
-    .mob-font {
-    font-size: 27px;
-        
-}
-    .t2 {
-    left: 40%;
-    font-size: 17px;
-    
-    
-            top: 9px;
-}
-    .animated{
-            margin-top: 25px;
-    }
-    .t3{
-        left: 41%;
-    font-size: 16px;
-    }
-    .t4{
-        
-        font-size: 16px;
-            margin-top: -4%;
-        margin-right: 13px;
-    }
-    .t5 {
-    font-size: 16px;
-    margin-top: 31px;
-        margin-right: -136px;
-}
-    .t1{
-        font-size: 17px;
-            left: -41%;
-    }
-    .email {
-    margin-left: 207px;
-}
-    .phone{
-            left: 174px;
-    }
-    .p{
-            left: 165px;
-                margin-top: 141%;
-    }
-    .map {
-    margin-top: -367px;
-    margin-left: 90px;
-    left: 4%;
-}
-    .textcontainer {
-    position: relative;
-    top: 23px;
-    left: 1%;
-    font-size: 2%;
-}
-}
-
-@media only screen and (max-width:320px) and (orientation:portrait){
-    
-    .animated {
-        
-    font-size: 43px;
-    margin-top: 35px;
-        
-    }
-    
-    .mapcontainer {
-    height: 47%;
-    width: 27%;
-    position: relative;
-    top: 47%;
-    left: -36%;
-}
-    .mob-font {
-    font-size: 22px
-    float: none;
-
-               margin-top: 132px;
-}
-    .p {
-    left: 160px;
-    margin-top: 91px;
-}
-    .t1 {
-    margin-top: 19px;
-    font-size: 18px;
-            left: -37%;
-}
-    .email{
-        position: relative;
-            margin-left: 206px;
-        
-        top: -39px;
-    }
-    .t2{
-        left: 58%;
-    font-size: 17px;
-        top: -73px;
-    }
-    .phone{
-        left: 178px;
-            position: relative;
-    
-        top: -154px;
-    }
-    .t3{
-        left: 52%;
-    font-size: 16px;
-               margin-top: -190px;
-    }
-    .t4 {
-    margin-top: -42%;
-    font-size: 16px;
-    margin-right: -27px;
-}
-    .t5 {
-        margin-right: -29px;
-       margin-top: -83px;
-    margin-right: ;
-}
-    .mapt{
-        font-size: 24px;
-    }
-    .textcontainer{
-            top: 46%;
-    }
-}
-
-
-

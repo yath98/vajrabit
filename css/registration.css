@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.body{
+        background-image: url(Untitled-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+background-size: 100% 100%;
+    }
+
+.head{
+    top: 3%;
+    background: linear-gradient( #FFFF00 , #FB5F00 );
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-family: 'Exo',sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width:480px) and (orientation: portrait) {
+  .body{
+    background-size: cover;
+  }
+  iframe{
+    width: 80%;
+  }
+}

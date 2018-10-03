@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="vajrabit.in" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="VAJRA 2018 | 3-5 November 2018 | BIT MESRA" />
+    <meta property="og:description" content="Annual Inter-College Sports Fest of BIT Mesra | Football | BasketBall | Table-Tennis | Chess | Badminton | Volleyball | Cricket "
+    />
+    <meta property="og:image" content="http://vajrabit.in/fbimage.jpg" />
+
+    <meta property="fb:app_id" content="255168078339795" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VAJRA18 </title>
+    <meta name="theme-color" content="#f4772e" />
+
+    <link rel="manifest" href="manifest.json">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/homepage.css" type="text/css" rel="stylesheet">
+    <link href="css/navbar.css" type="text/css" rel="stylesheet">
+    <link href="css/pre.css" type="text/css" rel="stylesheet">
+</head>
+<div class="loader">
+  <div class="pong-loader"></div>
+</div>
+  <body>
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+        <li ><a href="index.html">Home</a></li>
+      <li ><a href="About_us.html">About Us</a></li>
+      <li><a href="template.html">Events</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="blacktint.html">Gallery</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="Vajra.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+
+ <div class="bitlogo"><img class="bitlogo1" src="img/logo/bitlogo.png"></div>
+<div class="logo"><img class="logo1" src="img/logo/vajralogo.png"></div>
+  <div class="vlogo"><img class="vlogo1" src="img/logo/vajraweb.png"></div>
+    <div class="bleed"><img class="bleed1" src="img/logo/tagline.png"> </div>
+      <div class="date"><img class="date1" src="img/logo/date.png"> </div>
+
+    <div class="myBtn"><a href="registration.html">REGISTER</a></div>
+    <a href="https://m.facebook.com/profile.php?id=508621152609025&ref=content_filter"><i class="fa fa-facebook-official fa-8x" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/vajra18/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+       $(document).ready(function () {
+          //Preloader
+          $(window).on('load', function () {
+              preloaderFadeOutTime = 500;
+              function hidePreloader() {
+                  let preloader = $('.loader');
+                  preloader.fadeOut(preloaderFadeOutTime);
+              }
+              hidePreloader();
+          });
+      });
+      </script>
+        <script>
+
+$('#toggle').click(function(){
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+
+         </script>
+      </body>
+</html>
